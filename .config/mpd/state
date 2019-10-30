@@ -1,0 +1,23 @@
+sw_volume: 88
+audio_device_state:1:pulse audio
+audio_device_state:0:toggle_visualizer
+state: pause
+current: 0
+time: 4.655000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:4_5913229768186136003.mp3
+1:4_5895298653387491012.mp3
+2:4_5810063704548443388.mp3
+3:4_5922454035088016890.mp3
+4:4_6019245486790149635.mp3
+5:4_5773787229650421498.mp3
+6:4_5976322386792810156.mp3
+7:08. Zenzenzense (extended).mp3
+playlist_end

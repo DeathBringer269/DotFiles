@@ -1,0 +1,43 @@
+{
+   "app": {
+      "icon_color": "#1793D1",
+      "launch": {
+         "web_url": "https://wiki.archlinux.org/index.php/Pacman/Rosetta"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 32,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 48,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 64,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 96,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 128,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      }, {
+         "size": 256,
+         "url": "https://wiki.archlinux.org/favicon.ico"
+      } ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "j8rp1BHLK2ohfm1pn8MdyQTHJzlG0GG/SsHp8d2R6FE=",
+   "name": "Pacman/Rosetta - ArchWiki",
+   "version": "2019.10.23.8471"
+}

@@ -1,0 +1,8 @@
+2019/10/27-18:55:09.983 e4b5 Recovering log #12
+2019/10/27-18:55:09.984 e4b5 Level-0 table #14: started
+2019/10/27-18:55:09.993 e4b5 Level-0 table #14: 157 bytes OK
+2019/10/27-18:55:10.002 e4b5 Delete type=3 #10
+2019/10/27-18:55:10.002 e4b5 Delete type=0 #12
+2019/10/27-18:55:10.002 e61a Compacting 2@0 + 0@1 files
+2019/10/27-18:55:10.002 e61a Compacted 2@0 + 0@1 files => 0 bytes
+2019/10/27-18:55:10.006 e61a compacted to: files[ 2 0 0 0 0 0 0 ]

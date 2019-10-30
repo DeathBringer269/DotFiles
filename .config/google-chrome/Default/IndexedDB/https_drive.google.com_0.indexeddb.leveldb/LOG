@@ -1,0 +1,15 @@
+2019/10/28-22:52:18.637 9831 Reusing MANIFEST /home/deathbringer/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/10/28-22:52:18.637 9831 Recovering log #22
+2019/10/28-22:52:18.645 9831 Reusing old log /home/deathbringer/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000022.log 
+2019/10/28-22:52:18.645 9831 Delete type=2 #23
+2019/10/28-22:52:18.645 9831 Delete type=2 #21
+2019/10/28-22:52:18.645 9831 Delete type=2 #19
+2019/10/28-22:52:30.135 9d5e Compacting 1@1 + 1@2 files
+2019/10/28-22:52:30.137 9d5e Level-0 table #29: started
+2019/10/28-22:52:30.154 9d5e Level-0 table #29: 1196943 bytes OK
+2019/10/28-22:52:30.158 9d5e Delete type=0 #22
+2019/10/28-22:52:30.187 9d5e Generated table #27@1: 110 keys, 876652 bytes
+2019/10/28-22:52:30.187 9d5e Compacted 1@1 + 1@2 files => 876652 bytes
+2019/10/28-22:52:30.190 9d5e compacted to: files[ 1 0 1 0 0 0 0 ]
+2019/10/28-22:52:30.190 9d5e Delete type=2 #9
+2019/10/28-22:52:30.190 9d5e Delete type=2 #25

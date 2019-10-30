@@ -1,0 +1,78 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.keybr.com/"
+      },
+      "linked_icons": [ {
+         "size": 16,
+         "url": "https://www.keybr.com/res/favicon/favicon-16x16.png"
+      }, {
+         "size": 32,
+         "url": "https://www.keybr.com/res/favicon/favicon-32x32.png"
+      }, {
+         "size": 48,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-57x57.png"
+      }, {
+         "size": 57,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-57x57.png"
+      }, {
+         "size": 60,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-60x60.png"
+      }, {
+         "size": 64,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-72x72.png"
+      }, {
+         "size": 72,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-72x72.png"
+      }, {
+         "size": 76,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-76x76.png"
+      }, {
+         "size": 96,
+         "url": "https://www.keybr.com/res/favicon/favicon-96x96.png"
+      }, {
+         "size": 114,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-114x114.png"
+      }, {
+         "size": 120,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-120x120.png"
+      }, {
+         "size": 128,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-144x144.png"
+      }, {
+         "size": 144,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-144x144.png"
+      }, {
+         "size": 152,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-152x152.png"
+      }, {
+         "size": 180,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-180x180.png"
+      }, {
+         "size": 256,
+         "url": "https://www.keybr.com/res/favicon/apple-touch-icon-180x180.png"
+      } ]
+   },
+   "description": "Take typing test, practice typing lessons",
+   "icons": {
+      "114": "icons/114.png",
+      "120": "icons/120.png",
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "16": "icons/16.png",
+      "180": "icons/180.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "57": "icons/57.png",
+      "60": "icons/60.png",
+      "64": "icons/64.png",
+      "72": "icons/72.png",
+      "76": "icons/76.png",
+      "96": "icons/96.png"
+   },
+   "key": "T3EKpRvdfoAQm1Bsp2gZOo1FQ8Agp+cacoia6Xtb2Y0=",
+   "name": "Typing practice",
+   "version": "2019.10.23.8473"
+}

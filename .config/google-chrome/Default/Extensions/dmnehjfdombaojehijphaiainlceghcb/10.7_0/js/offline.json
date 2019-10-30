@@ -1,0 +1,38 @@
+{
+    "settingsUrl": "https://monadbackend.online/extensions-data/extensions/154478120878/settings/data.json",
+    "photosFetchURL": "https://monadbackend.online/extensions-data/extensions/154478120878/images/list.json",
+    "gamesFetchURL": "https://api.lovelytab.com/api/index.php?api=lovelytab_api_v1&module=games",
+    "newsFetchURL": "https://api.lovelytab.com/api/index.php?api=lovelytab_api_v1&module=newsfeed&category=",
+    "quotesFetchURL": "https://api.lovelytab.com/api/index.php?api=lovelytab_api_v1&module=quotes&category=",
+    "musicFetchURL": "/",
+    "primaryExtensionsFetchURL": "https://s3-us-west-2.amazonaws.com/extension-data/exampleFiles/exampleExtensionIDs.json",
+    "pushFetchURL": "https://api.lovelytab.com/api/index.php?api=lovelytab_api_v1&module=push&user_id=3213123&ext_id=43141",
+    "pushInterval": "24",
+    "pushFormat": "lovelytab",
+    "quickLinksFetchURL": "https://api.lovelytab.com/api/index.php?api=lovelytab_api_v1&module=showQuickLinks",
+    "links": {
+        "privacy": "https://faq.lovelytab.com/page/privacy",
+        "eula": "https://faq.lovelytab.com/page/eula",
+        "contact": "https://faq.lovelytab.com/contact",
+        "facebook": "https://www.facebook.com/lovelytabaddons",
+        "twitter": "https://twitter.com/lovelytab_com",
+        "instagram": "https://www.instagram.com/lovelytab_com/",
+        "google": "https://plus.google.com/u/0/101889582542170416643",
+        "medium": "https://medium.com/@lovelytab",
+        "pinterest": "https://www.pinterest.com/lovelytab1/pins/",
+        "tumblr": "https://free-addons.tumblr.com/",
+        "reddit": "https://www.reddit.com/user/Free-Addons"
+    },
+    "searchURL": [
+        {"name":"Google Custom","url":"https:\/\/go.next-search.net\/Results.aspx?gd=SY1001210&searchsource=69&n=2101&q=","icon":"https:\/\/image.lovelytab.com\/img\/search\/google-1543234216.png"}
+    ],
+    "installRedirectURL": "https://lovelytab.com/?p=3213",
+    "extensionAnalyticsID": "154478120878",
+    "extensionName": "Manga Anime HD Wallpapers New Tab",
+    "googleAnalyticsID": "UA-121709273-1",
+    "version": "3",
+    "type": "basic",
+    "category": "cartoons",
+    "background_tag": "Anime,Girls ",
+    "quote_tag": "Anime,Girls "
+}
