@@ -1,7 +1,0 @@
-2019/10/27-19:42:31.621 110df Reusing MANIFEST /home/deathbringer/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2019/10/27-19:42:31.621 110df Recovering log #22
-2019/10/27-19:42:31.624 110df Reusing old log /home/deathbringer/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000022.log 
-2019/10/27-19:42:36.298 e76f Compacting 2@0 + 1@1 files
-2019/10/27-19:42:36.312 e76f Generated table #25@0: 408 keys, 879359 bytes
-2019/10/27-19:42:36.312 e76f Compacted 2@0 + 1@1 files => 879359 bytes
-2019/10/27-19:42:36.314 e76f compacted to: files[ 0 1 1 0 0 0 0 ]

@@ -1,6 +1,0 @@
-2019/10/28-22:56:19.615 a7fd Reusing MANIFEST /home/deathbringer/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/10/28-22:56:19.615 a7fd Recovering log #4
-2019/10/28-22:56:19.616 a7fd Reusing old log /home/deathbringer/.config/google-chrome/Default/Sync Data/LevelDB/000004.log 
-2019/10/28-22:56:21.218 abd9 Level-0 table #8: started
-2019/10/28-22:56:21.224 abd9 Level-0 table #8: 137825 bytes OK
-2019/10/28-22:56:21.227 abd9 Delete type=0 #4
