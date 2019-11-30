@@ -1,0 +1,55 @@
+#vim
+super + a					calculator
+super + shift + a			alsamixer
+super + b					bar toggle
+# super + shift + b
+super + c					Calender
+super + shift + c			Turns on webcam
+super + d					dmenu
+#super + shift + d
+super + e					reload i3
+super + shift + e			learn about dropdown
+#super + f
+super + shift + f			Distraction free mode toggle
+super + g					cycle through i3workspaces backwords
+#super + shift + g
+#super + h					no default action but can be used to move windows around
+#super + shift + h
+#super + i
+#super + shift + i
+#super + j
+#super + shift + j
+#super + k
+#super + shift + k
+#super + l
+#super + shift + l
+super + m					ncmpcpp
+super + shift + m			mute
+super + n					rss feed
+super + shift + n			minimize window to bottom right corner of screen, super + shift + h,j,k,l to move
+#super + o
+#super + shift + o
+#super + p
+#super + shift + p
+super + q					kill window
+super + shift + q			kill window
+super + r					ranger
+#super + shift + r
+super + s					decrease outer  gaps
+super + shift + s			increase outer gaps
+super + t					toggle split
+super + shift + t			reset gaps
+super + u					dropdown terminal
+#super + shift + u
+super + v					open vimwiki; if vim already open then split vertically
+#super + shift + v
+super + w					networkmanager UI
+#super + shift + w
+#super + x
+super + shift + x			power options menu
+#super + y
+#super + shift + y
+super + z					decrease outer gaps
+super + shift + z			increase inner gaps
+
+
