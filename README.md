@@ -1,2 +1,4 @@
 # DotFiles
-My Arch linux config files
+Arch linux dotfiles.
+Original config by Luke Smith.
+Added some modifications.
