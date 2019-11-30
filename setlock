@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+[ ! -z "$1" ] && echo "$1" && betterlockscreen -u "$1"
