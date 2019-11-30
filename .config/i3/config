@@ -27,7 +27,7 @@ for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
 
 bar {
-	font pango:mono 11
+	font pango:mono 12
 	status_command i3blocks
 	position bottom
 	mode dock
@@ -50,6 +50,7 @@ bindsym $mod+Shift+Delete	exec --no-startup-id lmc truemute ; exec --no-startup-
 bindsym $mod+q			[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] exec --no-startup-id kill -9 `xdotool getwindowfocus getwindowpid`
 
+bindsym $mod+e 			restart
 bindsym $mod+Shift+r		exec --no-startup-id winresize
 
 bindsym $mod+t			split toggle
@@ -109,6 +110,26 @@ bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id hover
 
 bindsym $mod+Shift+n		floating toggle; sticky toggle; exec --no-startup-id hover right
 
+#Press $mod (super) and X to exit - check toolbar for next choices
+bindsym $mod+Shift+x mode "$mode_system"
+bindsym control+mod1+Delete mode "$mode_system"
+
+set $mode_system System (k) lock, (l) logout, (u) suspend, (h) hibernate, (r) reboot, (s) shutdown
+mode "$mode_system" {
+    #bindsym k exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"A
+	bindsym k exec --no-startup-id betterlockscreen -l, mode "default"
+    bindsym l exec --no-startup-id ~/.config/i3/scripts/i3exit.sh logout, mode "default"
+    #bindsym u exec --no-startup-id ~/.config/i3/scripts/i3exit.sh suspend, mode "default"
+	bindsym u exec --no-startup-id systemctl suspend , mode "default"
+    bindsym h exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
+    bindsym r exec --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+    bindsym s exec --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
 # #---Workspace Bindings---# #
 bindsym $mod+Home		workspace $ws1
 bindsym $mod+Shift+Home		move container to workspace $ws1
@@ -128,7 +149,6 @@ bindsym $mod+apostrophe		split horizontal ;; exec $term
 bindsym $mod+slash		split vertical ;; exec $term
 bindsym $mod+Shift+slash	kill
 bindsym $mod+backslash		workspace back_and_forth
-bindsym $mod+x exec i3lock
 
 set $ws1 "1"
 set $ws2 "2"
@@ -165,6 +185,9 @@ bindsym $mod+Shift+8	move container to workspace $ws8
 bindsym $mod+Shift+9	move container to workspace $ws9
 bindsym $mod+Shift+0	move container to workspace $ws10
 
+# Custom assign
+assign [class="firefox"] $ws2
+
 for_window [class="Pinentry"] sticky enable
 for_window [class="sent"] border pixel 0px
 for_window [title="GIMP Startup"] move workspace $ws5
@@ -172,7 +195,7 @@ for_window [class="Gimp"] move workspace $ws5
 for_window [window_role="GtkFileChooserDialog"] resize set 800 600
 for_window [window_role="GtkFileChooserDialog"] move position center
 for_window [title="Default - Wine desktop"] floating enable
-for_window [class="firefox"] move workspace $ws2
+
 # Bindings to make the webcam float and stick.
 for_window [title="mpvfloat"] floating enable
 for_window [title="mpvfloat"] sticky enable
@@ -196,3 +219,12 @@ bindsym $mod+Shift+Down		move down
 bindsym $mod+Shift+Up		move up
 bindsym $mod+Shift+Right 	move right
 # exec_always --no-startup-id notify-send -i ~/.local/share/larbs/larbs.png 'Welcome to LARBS:' 'Press Super+F1 for the manual.' -t 10000
+
+bindsym $mod+XF86WakeUp+1 	exec firefox
+
+#Authentication dialog
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+#bindsym $mod+y layout stacking
+#bindsym $mod+u layout tabbed
+#bindsym $mod+i layout toggle split
